@@ -1,0 +1,49 @@
+[
+    {
+        "local": "Clube 29",
+        "pratica": "Natação",
+        "descri": "",
+        "cep": "88705530",
+        "rua": "Rua Antônio Pedro Costa",
+        "bairro": "Passagem",
+        "complemento": "",
+        "cidade": "Tubarão",
+        "codIbge": "4218707",
+        "altitude": "",
+        "estado": "SC",
+        "latitude": "-28.46728",
+        "longitude": "-48.98578",
+        "cpf": "02483451926",
+        "nome": "Charles costa"
+    },
+    {
+        "local": "Praça",
+        "pratica": "Corrida",
+        "descri": "",
+        "cep": "88703450",
+        "rua": "Rua Eraci dos Santos Lima",
+        "bairro": "São Cristóvão",
+        "complemento": "",
+        "cidade": "Tubarão",
+        "codIbge": "4218707",
+        "altitude": "",
+        "estado": "SC",
+        "latitude": "-28.53283",
+        "longitude": "-49.06026",
+        "cpf": "02483451926",
+        "nome": "Charles costa"
+    },
+    {
+        "cep": "88790973",
+        "rua": "Rua Euclides Lúcio Nascimento, 339",
+        "bairro": "Povoado de Passagem da Barra",
+        "cidade": "Laguna",
+        "estado": "SC",
+        "longitude": "-48.77137",
+        "latitude": "-28.51915",
+        "codIbge": "4209409",
+        "local": "Trilha Laguna",
+        "cpf": "02483451926",
+        "nome": "Charles costa"
+    }
+]

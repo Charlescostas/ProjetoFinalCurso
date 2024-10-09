@@ -1,0 +1,25 @@
+.container {
+    height: 85vh;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerCard {
+    display: flex;
+    gap: 25px;
+}
+  
+.containerGrid{
+    margin-bottom: 1.5; 
+    width: 280px;
+    height: 45px;
+    top: 143px;
+    left: 272px;
+    gap: 2px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 1px;
+}

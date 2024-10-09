@@ -1,0 +1,36 @@
+.toolbar {
+    background-color: #0f0f0f;
+    display: flex;
+    width: 100%;
+  }
+  
+  .toolbarTitle {
+    position: relative;
+    left: 40%;
+  }
+  
+  .icon {
+    color: #f4f6f4;
+  }
+  
+  .downList {
+    display: flex;
+    position: fixed;
+  }
+  
+  .spaceBox {
+    width: 100%;
+    height: 30rem;
+  }
+  
+  .drawerHeader {
+    gap: 6rem;
+  }
+  
+  .navIcon {
+    color: #f4f6f4;
+  }
+  
+  .navButton {
+    color: #f4f6f4;
+  }

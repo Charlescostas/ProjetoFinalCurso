@@ -6,20 +6,43 @@ import { MapMak } from '../../components/dashboard/maps'
 import {TablePage} from '../../components/dashboard/table'
 import styles from "./style.module.css"
 import 'leaFlet/dist/leaflet.css'
-import { useState } from "react";
+import { useState, useEffect} from "react";
+import dataUsuario from '../../UsuariosJson.json'
+import dataLocalidade from '../../LocalidadeJson.json'
 
 export function Dashboard(){
     const [isAcessaMap,setIsAcessaMap] = useState(false)
     const [isAcessaTable,setIsAcessaTable] = useState(true)
+  
     const qtdUsuario = 2;
     const qtdLocais = 3;
 
+
+    //*********************************************************/
+    //********** carrega usuario no localStorage ****************/
+    //*********************************************************/
+    function getCarregaUsuario() {
+        const usuarioStorage = localStorage.getItem('Usuarios');
+        if (!usuarioStorage) {
+            localStorage.setItem('Usuarios', JSON.stringify(dataUsuario))
+        }
+
+        const localidadeStorage = localStorage.getItem('Localidades');
+        if (!localidadeStorage) {
+            localStorage.setItem('Localidades', JSON.stringify(dataLocalidade))
+        }
+    }
+
+    useEffect(() => {
+        getCarregaUsuario()
+    }, [])    
+    
     function fAcessaMapTable(mapTable) {
-        setIsAcessaMap(false)
+        setIsAcessaMap(false),
         setIsAcessaTable(true)
         
         if (mapTable) {
-            setIsAcessaMap(true)
+            setIsAcessaMap(true),
             setIsAcessaTable(false)
         }
     } 

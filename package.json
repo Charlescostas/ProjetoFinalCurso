@@ -14,7 +14,7 @@
     "@emotion/styled": "^11.11.5",
     "@hookform/resolvers": "^3.3.4",
     "@mui/icons-material": "^5.15.17",
-    "@mui/material": "^5.15.17",
+    "@mui/material": "^5.16.7",
     "ativa365-front": "file:",
     "json-server": "^1.0.0-alpha.23",
     "leaflet": "^1.9.4",

@@ -1,7 +1,7 @@
 import {
   Paper,Table,TableBody,TableCell,TableRow,
   TableContainer,TableHead,TablePagination
-} from '@mui/material';
+} from '@mui/material'; 
 import {useEffect, useState } from 'react';
 
 const columns = [

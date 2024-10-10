@@ -2,6 +2,10 @@
     height: 85vh;
 }
 
+.container2 {
+    height: 185vh;
+}
+
 .containerText {
     display: flex;
     flex-direction: row;
@@ -14,12 +18,29 @@
 }
   
 .containerGrid{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
     margin-bottom: 1.5; 
     width: 280px;
     height: 45px;
     top: 143px;
     left: 272px;
-    gap: 2px;
+    gap: 4px;
     border-radius: 5px 0px 0px 0px;
     opacity: 1px;
+}
+
+.icon {
+    height: 100px;
+    color: #ff0a1b;
+}
+  
+.number {
+    color: #ff0a1b;
+}
+
+.tableLocais{
+    margin-top: -30px;
+    margin-left: 10px;
 }

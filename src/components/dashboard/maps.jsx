@@ -1,6 +1,6 @@
-import "leaFlet/dist/leaflet.css";
 import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaFlet/dist/leaflet.css";
 
 export function MapMak() {
   const center = [-28.46728,-48.98578]  
